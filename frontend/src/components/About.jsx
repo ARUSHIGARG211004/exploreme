@@ -1,18 +1,4 @@
-// import React from 'react';
-// import '../about.css';
 
-// const About = () => {
-//   return (
-//     <section id="about" className="section">
-//       <h2 className="section-title">About</h2>
-//       <p className="section-text"></p>
-
-    
-//     </section>
-//   );
-// };
-
-// export default About;
 
 
 

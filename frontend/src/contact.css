@@ -1,34 +1,44 @@
-.contact-us {
-    position: relative;
-  }
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('../public/main background.jpg') center center;
+  position: relative;
+}
+
+.contact-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.contact-label {
+  font-size: 50px;
+  margin-right: 10px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .contact-links {
+  display: flex;
+  align-items: center;
   
-  .dropdown {
-    position: absolute;
-    top: 30px; /* adjust the top position to fit your needs */
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    display: none;
-  }
-  
-  .contact-us:hover .dropdown {
-    display: block;
-  }
-  
-  .dropdown li {
-    margin-bottom: 10px;
-  }
-  
-  .dropdown li:last-child {
-    margin-bottom: 0;
-  }
-  
-  .dropdown a {
-    text-decoration: none;
-    color: #337ab7;
-  }
-  
-  .dropdown a:hover {
-    color: #23527c;
-  }
+} */
+
+.contact-link {
+  cursor: pointer;
+  font-size: 40px;
+  margin-right: 10px;
+  color: rgb(172, 116, 170);
+  margin-top: 30px;
+}
+
+
+.contact-link:hover {
+  color: #553151;
+  text-decoration: underline;
+}

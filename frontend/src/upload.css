@@ -10,6 +10,7 @@
   .upload-component input[type="file"] {
     margin: 40px 0 auto;
     font-size: 30px;
+    color: white;
   }
   
   .upload-component button {

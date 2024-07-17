@@ -1,4 +1,6 @@
-//Collection.jsx
+
+
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../collection.css';
@@ -11,7 +13,7 @@ const Collection = () => {
 
   const handleFetchCollection = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/collection', {
+      const response = await axios.get('http://localhost:5000/collection', {
         params: { username: username },
       });
 
