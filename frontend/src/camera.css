@@ -1,0 +1,51 @@
+
+  
+  .image-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-preview img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .similar-images {
+    margin-top: 20px;
+  }
+  
+  .similar-images .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .similar-images .image-list img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h3{
+    color: wheat;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+  }
+
+ /* p{
+    font-size:16px;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2); Add a dark background to make the text more readable
+  }*/
+  .generated-text {
+    color: #ffffff; /* or simply 'white' */
+  }
+  .upload-component button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;}
